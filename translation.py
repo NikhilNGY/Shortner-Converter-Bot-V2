@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am SYShort.com, Bulk Link Converter. I Can Convert Links Directly From Your SYShort Account,
+I Am SYShort.com, Bulk Link Converter. I Can Convert Links Directly From Your Tdisk Account,
     
-1. Go To 👉 https://SYShort.com/member/tools/api  
+1. Go To 👉 https://tdisk.xyz/member/tools/api
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
@@ -24,7 +24,7 @@ If You Want Any **Other Shortner** Link Converter Bot Instead Of SYShort than **
 HELP_MESSAGE = '''**Hello, {}
 I Am SYShort, Bulk Link Converter Bot. I Can Convert Links Directly From Your SYShort Account,**
     
-1. Go To 👉 https://SYShort.com/member/tools/api  
+1. Go To 👉 https://tdisk.xyz/member/tools/api 
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
@@ -110,7 +110,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://syshort.com/ref/Nikhil5757h)
+- Website: [{base_site}](https://tdisk.xyz/member/tools/api)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -154,13 +154,13 @@ USERNAME_TEXT = """**Hello Harman, I am SYShort.com, Bulk Link Converter Bot Fro
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @SYShort
+/channel @tdisk_official
 Or
 /channel https://t.me/SYShort
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @SYShort For More Help -**"""
+**- Message @tdisk_official For More Help -**"""
 
 BANNER_IMAGE = """
 Usage: `/banner_image image_url` or reply to any Image with this command
@@ -169,7 +169,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b387a.jpg`"""
+Eg: `/banner_image https://telegra.ph/file/5e96b387a.jpg`"""
 
 
 BANNED_USER_TXT = """
